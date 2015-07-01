@@ -1,0 +1,46 @@
+<uml>
+   <greenVersion="30100"/>
+   <type>
+      <name="=SentimentMiner/src<webapp{SearchTopic.java[SearchTopic"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="187"/>
+      <y="142"/>
+   </type>
+   <type>
+      <name="=SentimentMiner/src<webapp{AnalyzeUser.java[AnalyzeUser"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="571"/>
+      <y="141"/>
+   </type>
+   <type>
+      <name="=SentimentMiner/src<servlet{SearchTopicServlet.java[SearchTopicServlet"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="0"/>
+      <y="0"/>
+   </type>
+   <type>
+      <name="=SentimentMiner/src<servlet{AnalyzeUserServlet.java[AnalyzeUserServlet"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="200"/>
+      <y="0"/>
+   </type>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=SentimentMiner/src<servlet{AnalyzeUserServlet.java[AnalyzeUserServlet"/>
+      <targetType="=SentimentMiner/src<webapp{AnalyzeUser.java[AnalyzeUser"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=SentimentMiner/src<servlet{SearchTopicServlet.java[SearchTopicServlet"/>
+      <targetType="=SentimentMiner/src<webapp{SearchTopic.java[SearchTopic"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+</uml>
+
