@@ -30,6 +30,11 @@ Weibo (Chinese) Sentiment Analysis and Visualization
 
 Given a topic (keyword), return all the related tweets and their sentiment, represented as colorful bubbles. The color of the bubbles indicates the sentiment polarity of the tweets, while the size indicates the degree. Statistics are also shown in line chart.
 
+![topic analysis](https://github.com/j0h4x0r/SentimentMiner/raw/master/images/topic_bubbles.png)
+![topic analysis](https://github.com/j0h4x0r/SentimentMiner/raw/master/images/topic_line.png)
+
 ### User Analysis
 
 Given a user, return the count and sentiment of tweets the user posted in a specific time. line and bar chart is used to show the result.
+
+![user analysis](https://github.com/j0h4x0r/SentimentMiner/raw/master/images/user_linebar.png)
